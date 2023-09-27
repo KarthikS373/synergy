@@ -1,4 +1,5 @@
-import React from "react"
+import React, { useEffect } from "react"
+import Link from 'next/link';
 
 import Button from "@/components/atoms/button"
 import CommunityInventory from "@/components/community/inventory"
@@ -14,6 +15,15 @@ interface HomePageProps {
 }
 
 const HomePage: React.FC<HomePageProps> = () => {
+
+  // useEffect(() => {
+  //   fetch("http://localhost:5000/").then(
+  //     response => response.json()
+  //   ).then(
+  //     data => console.log(data)
+  //   )
+  // }, [])
+
   return (
     <HomeLayout>
       {/* Learn more card */}
@@ -28,7 +38,9 @@ const HomePage: React.FC<HomePageProps> = () => {
         </div>
         <div className="mt-8 flex gap-4">
           <Button variant="secondary" className="group hover:translate-y-[-2px] transition-all duration-200 ease-in-out" title="Learn more" />
-          <Button variant="secondary" className="group hover:translate-y-[-2px] transition-all duration-200 ease-in-out" title="View Proposals" />
+          <Link href="/proposal">
+            <Button variant="secondary" className="group hover:translate-y-[-2px] transition-all duration-200 ease-in-out" title="View Proposals" />
+          </Link>
         </div>
       </div>
 
