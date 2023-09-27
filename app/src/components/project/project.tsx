@@ -28,9 +28,9 @@ const ProjectCard: React.FC<ExpProps> = () => {
           <p>Proposed by: Name</p>
         </div>
       </div>
-      <h1 className="mt-3 w-4/5">
+      <div className="font-bold text-xl mt-3 w-4/5">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, a.
-      </h1>
+      </div>
       <div className="mt-12 md:mt-2">
         <div className="mt-4 flex items-center justify-between">
           <span className="flex flex-col items-baseline lg:flex-row lg:gap-2">
