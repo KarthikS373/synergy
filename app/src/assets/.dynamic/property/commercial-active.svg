@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="147" viewBox="0 0 110 147">
+    <g id="Group_37418" data-name="Group 37418" transform="translate(-1425 -121)">
+        <rect id="bg" width="110" height="147" rx="9.415" transform="translate(1425 121)"
+            fill="#dbe1ff" />
+        <text id="_100_" data-name="100%" transform="translate(1437.669 219.747)" font-size="15"
+            font-family="OpenSans-Semibold, Open Sans" font-weight="600">
+            <tspan x="0" y="16">Commercial</tspan>
+        </text>
+        <g id="factory-svgrepo-com" transform="translate(1402.942 145.258)">
+            <g id="Group_38118" data-name="Group 38118" transform="translate(37.727 3.353)">
+                <g id="Group_38117" data-name="Group 38117" transform="translate(0)">
+                    <path id="Path_27677" data-name="Path 27677"
+                        d="M58.646,108.146V92.372L55,95.562V86.249H51.624V98.512l-1.75,1.531V92.372L44.125,97.4V87.036H40.751v13.292h.024l-3.048,2.665v29.145H84.78V108.146ZM46.5,102.994v25.771H41.1V104.525L46.5,99.8Zm8.772,5.152v20.619h-5.4V104.525l5.4-4.721Zm17.153,20.619H68.17V124.51h4.255Zm8.981,0H75.8v-7.629h-11v7.629h-6.15V111.52h22.76v17.245Z"
+                        transform="translate(-37.727 -86.249)" />
+                </g>
+            </g>
+            <g id="Group_38120" data-name="Group 38120" transform="translate(64.895 31.89)">
+                <g id="Group_38119" data-name="Group 38119">
+                    <rect id="Rectangle_17420" data-name="Rectangle 17420" width="10.797"
+                        height="3.374" />
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="Group_38449" data-name="Group 38449" transform="translate(-19 -311)">
+        <circle id="Ellipse_34" data-name="Ellipse 34" cx="10" cy="10" r="10"
+            transform="translate(101 319)" fill="#3acc6c" />
+        <g id="Group_63" data-name="Group 63" transform="translate(106 326)">
+            <g id="Group_2658" data-name="Group 2658">
+                <line id="Line_32" data-name="Line 32" x2="3.341" y2="3.341"
+                    transform="translate(0 3.341)" fill="none" stroke="#fff" stroke-linecap="round"
+                    stroke-width="1.5" />
+                <line id="Line_33" data-name="Line 33" y1="6.682" x2="5.847"
+                    transform="translate(3.341)" fill="none" stroke="#fff" stroke-linecap="round"
+                    stroke-width="1.5" />
+            </g>
+        </g>
+    </g>
+</svg>
+  

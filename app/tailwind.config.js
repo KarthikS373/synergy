@@ -8,7 +8,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {},
+        primary: {
+          50: "#FFF8F1",
+          100: "#FFE9D9",
+          200: "#FFD1AC",
+          300: "#FFB97F",
+          400: "#FFA052",
+          500: "#FF8A25",
+          600: "#DB6D0E",
+          700: "#B54F00",
+          800: "#913F00",
+          900: "#6E2F00",
+        },
         secondary: {},
         tertiary: {},
         dark: {},
@@ -17,8 +28,6 @@ module.exports = {
         warning: {},
         danger: {},
         info: {},
-        white: {},
-        black: {},
       },
       fontFamily: {
         sans: [],

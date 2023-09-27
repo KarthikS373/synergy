@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110"
+    height="150" viewBox="0 0 110 150">
+    <defs>
+        <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+            gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fcefef" />
+            <stop offset="1" stop-color="#fefafb" />
+        </linearGradient>
+    </defs>
+    <g id="Group_38413" data-name="Group 38413" transform="translate(-902 -220)">
+        <rect id="emily-sea-coiWR0gT8Cw-unsplash" width="110" height="150" rx="15"
+            transform="translate(902 220)" fill="url(#linear-gradient)" />
+        <g id="appartment-svgrepo-com" transform="translate(919 256)">
+            <path id="secondary" d="M15,35V23H7V35ZM7,7h8M7,15h8" transform="translate(4 4)"
+                fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="3" />
+            <path id="primary"
+                d="M27,39H3V5A2,2,0,0,1,5,3H25a2,2,0,0,1,2,2Zm0,0H39V11a2,2,0,0,0-2-2H27Z"
+                transform="translate(0 0)" fill="none" stroke="#000" stroke-linecap="round"
+                stroke-linejoin="round" stroke-width="3" />
+        </g>
+        <text id="My_Apartment" data-name="My
+  Apartment" transform="translate(922 329)"
+            font-size="15" font-family="OpenSans-Semibold, Open Sans" font-weight="600">
+            <tspan x="0" y="0">My</tspan>
+            <tspan x="0" y="20">Apartment</tspan>
+        </text>
+    </g>
+</svg>
+  

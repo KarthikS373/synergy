@@ -34,14 +34,14 @@ interface TabProps {
 const Tab: React.FC<TabProps> = ({ active, id, path, title }) => {
   return (
     <div className={clsx("cursor-pointer px-8 py-4 hover:bg-gray-500/5", active ? "" : "")}>
-      <h2
+      <li
         className={clsx(
-          "relative transition-all after:absolute after:-bottom-4 after:left-0 after:h-1 after:rounded-full after:bg-orange-400",
+          "relative list-none transition-all after:absolute after:-bottom-4 after:left-0 after:h-1 after:rounded-full after:bg-orange-400",
           active ? "font-semibold after:w-full" : "after:w-0"
         )}
       >
         {title}
-      </h2>
+      </li>
     </div>
   )
 }

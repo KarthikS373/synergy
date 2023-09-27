@@ -1,6 +1,6 @@
 import React from "react"
 
-import Button from "../ui/button"
+import Button from "../atoms/button"
 import Card from "../ui/card"
 
 interface ProposalProps {
@@ -14,13 +14,19 @@ interface ExpProps {
 const ProposalCard: React.FC<ExpProps> = () => {
   return (
     <Card>
-      <div className="center gap-4 px-4">
-        <span className="h-10 w-10 rounded-full bg-gray-500" />
-        <div className="flex flex-col">
-          <h1>Title of Proposal</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, aspernatur</p>
+      <div className="center justify-between gap-4 px-4">
+        <div className="center gap-8">
+          <span className="h-10 w-10 rounded-full bg-gray-500/25" />
+          <div className="flex flex-col">
+            <h1 className="text-2xl text-black/80">Title of Proposal</h1>
+            <p className="opacity-75">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, aspernatur
+            </p>
+          </div>
         </div>
-        <Button>Vote now</Button>
+        <Button variant="primary" className="text-black">
+          Vote now
+        </Button>
       </div>
     </Card>
   )

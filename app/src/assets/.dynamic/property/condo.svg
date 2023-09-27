@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110"
+    height="150" viewBox="0 0 110 150">
+    <defs>
+        <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+            gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f9effc" />
+            <stop offset="1" stop-color="#fdfafe" />
+        </linearGradient>
+    </defs>
+    <g id="Group_38411" data-name="Group 38411" transform="translate(-781 -393)">
+        <rect id="emily-sea-coiWR0gT8Cw-unsplash" width="110" height="150" rx="15"
+            transform="translate(781 393)" fill="url(#linear-gradient)" />
+        <g id="Group_36600" data-name="Group 36600" transform="translate(752 1)">
+            <text id="My_Condo" data-name="MyCondo" transform="translate(49 498)" font-size="15"
+                font-family="OpenSans-Semibold, Open Sans" font-weight="600">
+                <tspan x="0" y="0">My</tspan>
+                <tspan x="0" y="20">Condo</tspan>
+            </text>
+        </g>
+        <g id="office-building-svgrepo-com" transform="translate(737 366.879)">
+            <path id="Path_27603" data-name="Path 27603"
+                d="M130.855,66.855v31.41h17.133V66.855ZM129.428,64h19.988a1.428,1.428,0,0,1,1.428,1.428V99.694a1.428,1.428,0,0,1-1.428,1.428H129.428A1.428,1.428,0,0,1,128,99.694V65.428A1.428,1.428,0,0,1,129.428,64Z"
+                transform="translate(-61.145)" />
+            <path id="Path_27604" data-name="Path 27604"
+                d="M72.566,256H83.988v2.855H72.566Zm0,8.566H83.988v2.855H72.566Zm0,8.566H83.988v2.855H72.566ZM89.7,267.422H95.41v2.855H89.7Zm0,5.711H95.41v2.855H89.7ZM64,281.7h39.977v2.855H64Z"
+                transform="translate(0 -183.434)" />
+            <path id="Path_27605" data-name="Path 27605"
+                d="M578.855,322.855v19.988h8.566V322.855ZM577.428,320H588.85a1.428,1.428,0,0,1,1.428,1.428v22.844a1.428,1.428,0,0,1-1.428,1.428H577.428A1.428,1.428,0,0,1,576,344.272V321.428A1.428,1.428,0,0,1,577.428,320Z"
+                transform="translate(-489.156 -244.578)" />
+        </g>
+    </g>
+</svg>
+  

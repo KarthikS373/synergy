@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+    <g id="Group_37919" data-name="Group 37919" transform="translate(-4144 -325)">
+        <circle id="Ellipse_164" data-name="Ellipse 164" cx="22.5" cy="22.5" r="22.5"
+            transform="translate(4144 325)" fill="#0ddfa4" />
+        <g id="vuesax_bulk_clipboard-tick" data-name="vuesax/bulk/clipboard-tick"
+            transform="translate(3981 82)">
+            <g id="clipboard-tick" transform="translate(172 252)">
+                <path id="Vector"
+                    d="M14.291,0H4.933A4.938,4.938,0,0,0,0,4.933V15.317A4.945,4.945,0,0,0,4.933,20.25H14.28a4.938,4.938,0,0,0,4.933-4.933V4.933A4.922,4.922,0,0,0,14.291,0Z"
+                    transform="translate(4 4)" fill="#fff" />
+                <path id="Vector-2" data-name="Vector"
+                    d="M2.48,6.067A.819.819,0,0,1,1.9,5.824L.24,4.169A.827.827,0,0,1,1.41,3l1.07,1.07L6.309.24a.827.827,0,0,1,1.17,1.17L3.065,5.824A.8.8,0,0,1,2.48,6.067Z"
+                    transform="translate(10 11)" fill="#0ddfa4" />
+                <path id="Vector-3" data-name="Vector" d="M0,0H26.484V26.484H0Z" fill="none"
+                    opacity="0" />
+            </g>
+        </g>
+    </g>
+</svg>
+  
