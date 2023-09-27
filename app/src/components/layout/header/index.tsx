@@ -36,7 +36,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
 
   return (
     <>
-      <nav className="bg-white relative flex items-center justify-between px-4 py-4">
+      <nav className="bg-white relative flex items-center justify-between mx-8 px-4 py-4">
         <Link className="text-3xl font-bold leading-none" href="#">
           LOGO
         </Link>

@@ -9,20 +9,17 @@ interface HomePageProps {
 const HomePage: React.FC<HomePageProps> = () => {
   return (
     <div className="mt-16 px-4 sm:px-24 md:px-36 lg:px-56">
-      {/* Proposals */}
+      {/* Proposal */}
       <div className="mx-0 xl:mx-44 mt-12">
         <h1>Framework for the Use of Grant Specific Discord Channels</h1>
         <div className="lg:flex mt-4">
             <div className="lg:w-3/5">
-                <p className="mt-2 text-base">
-                    It would benefit the DAO to have a community-wide discussion around the use of our grant-specific Discord channels, and together, decide on a framework that specifies their intended use, allowed and prohibited content, etc.
-
-    Some grant channels are currently underutilized or overloaded with posts that are irrelevant. We could improve transparency and information dissemination in our grants program by creating community guidelines that call for an efficient, easy-to-digest flow of important information regarding project status, updates, and a log of answers to common/frequently asked questions. I believe that by laying out clear expectations for communication between the community and grantees, we can elevate community-driven oversight of DAO projects.
-
-    Should the DAO decide on a framework for the use of grant-specific channels?
-                </p>
-                <div>
-                <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+              <p className="mt-2 text-base">
+                  It would benefit the DAO to have a community-wide discussion around the use of our grant-specific Discord channels, and together, decide on a framework that specifies their intended use, allowed and prohibited content, etc. Some grant channels are currently underutilized or overloaded with posts that are irrelevant. We could improve transparency and information dissemination in our grants program by creating community guidelines that call for an efficient, easy-to-digest flow of important information regarding project status, updates, and a log of answers to common/frequently asked questions. I believe that by laying out clear expectations for communication between the community and grantees, we can elevate community-driven oversight of DAO projects. Should the DAO decide on a framework for the use of grant-specific channels?
+              </p>
+            <div>
+            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
+              <hr />
       <div className="">
         <div className="lg:py-6">
           <div className="flex">
@@ -90,11 +87,18 @@ const HomePage: React.FC<HomePageProps> = () => {
     <p className="-mt-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Maxime quisquam vero adipisci beatae voluptas dolor ame.</p>
 </div>
             </div>
-            <div className="lg:w-2/5 my-4">
-                <div className="px-2 py-2 border-2">
-                    <div>Yes</div>
-                    <div>No</div>
-                    <Button variant="primary" className="text-black">
+            <div className="lg:w-2/5 my-3 ml-6 text-xl">
+                <div className="w-full px-6 py-8 border-2 rounded-lg">
+                  Current Results
+                    <div className="py-4 flex justify-between">
+                      <div>Yes</div>
+                      <div>70%</div>
+                    </div>
+                    <div className="pt-2 pb-4 flex justify-between">
+                      <div>No</div>
+                      <div>30%</div>
+                    </div>
+                    <Button variant="primary" className="text-base bg-gradient-to-r from-fuchsia-600 to-pink-600 mt-4 text-black">
                         Vote now
                     </Button>
                 </div>

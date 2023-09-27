@@ -1,5 +1,4 @@
-import React, { useEffect } from "react"
-import Link from 'next/link';
+import React from "react"
 
 import Button from "@/components/atoms/button"
 import CommunityInventory from "@/components/community/inventory"
@@ -15,15 +14,6 @@ interface HomePageProps {
 }
 
 const HomePage: React.FC<HomePageProps> = () => {
-
-  // useEffect(() => {
-  //   fetch("http://localhost:5000/").then(
-  //     response => response.json()
-  //   ).then(
-  //     data => console.log(data)
-  //   )
-  // }, [])
-
   return (
     <HomeLayout>
       {/* Learn more card */}
@@ -38,9 +28,7 @@ const HomePage: React.FC<HomePageProps> = () => {
         </div>
         <div className="mt-8 flex gap-4">
           <Button variant="secondary" className="group hover:translate-y-[-2px] transition-all duration-200 ease-in-out" title="Learn more" />
-          <Link href="/proposal">
-            <Button variant="secondary" className="group hover:translate-y-[-2px] transition-all duration-200 ease-in-out" title="View Proposals" />
-          </Link>
+          <Button variant="secondary" className="group hover:translate-y-[-2px] transition-all duration-200 ease-in-out" title="View Proposals" />
         </div>
       </div>
 
@@ -77,7 +65,7 @@ const HomePage: React.FC<HomePageProps> = () => {
           <Proposal type={"card"} />
           <Proposal type={"card"} />
         </div>
-        <Button className="center mt-4 w-full">View More</Button>
+        <Button className="bg-gradient-to-r from-fuchsia-600 to-pink-600 center mt-4 w-full">View More</Button>
       </div>
 
       {/* Projects */}
@@ -94,7 +82,7 @@ const HomePage: React.FC<HomePageProps> = () => {
           <Project type={"card"} />
           <Project type={"card"} />
         </div>
-        <Button className="center mt-4 w-full">View More</Button>
+        <Button className="bg-gradient-to-r from-fuchsia-600 to-pink-600 center mt-4 w-full">View More</Button>
       </div>
 
       {/* Community engagement */}
@@ -120,7 +108,7 @@ const HomePage: React.FC<HomePageProps> = () => {
       {/* stats and forum links */}
       <div className="mt-4 rounded-xl bg-gradient-to-r from-fuchsia-600 to-pink-600 px-8 py-12 mx-0 xl:mx-44 shadow">
         <div className="">
-          <h1 className="text-white lg:text-3xl">Get Involved in shaping the Future of the Nation</h1>
+          <h1 className="text-white lg:text-3xl">We have so much ahead of us. The future of the Metaverse is in your hands!</h1>
           <p className="mt-4 text-white text-md lg:text-lg font-bold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit qui aliquid
             mollitia. Nostrum odit vitae eligendi perspiciatis tenetur minima repudiandae,
@@ -128,8 +116,8 @@ const HomePage: React.FC<HomePageProps> = () => {
           </p>
         </div>
         <div className="mt-8 flex gap-4">
-          <Button variant="secondary" className="group hover:translate-y-[-2px] transition-all duration-200 ease-in-out" title="Learn more" />
-          <Button variant="secondary" className="group hover:translate-y-[-2px] transition-all duration-200 ease-in-out" title="View Proposals" />
+          <Button variant="secondary" className="group hover:translate-y-[-2px] transition-all duration-200 ease-in-out" title="Join our Discord Channel" />
+          <Button variant="secondary" className="group hover:translate-y-[-2px] transition-all duration-200 ease-in-out" title="Debate on out Forum" />
         </div>
       </div>
     </HomeLayout>

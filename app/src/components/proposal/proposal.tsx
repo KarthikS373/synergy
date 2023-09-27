@@ -1,4 +1,5 @@
 import React from "react"
+import Link from "next/link"
 
 import Button from "../atoms/button"
 import Card from "../ui/card"
@@ -24,9 +25,11 @@ const ProposalCard: React.FC<ExpProps> = () => {
             </p>
           </div>
         </div>
-        <Button variant="primary" className="text-black">
-          Vote now
-        </Button>
+        <Link href="/proposal">
+          <Button variant="primary" className="bg-gradient-to-r from-fuchsia-600 to-pink-600 text-black">
+            Vote now
+          </Button>
+        </Link>
       </div>
     </Card>
   )

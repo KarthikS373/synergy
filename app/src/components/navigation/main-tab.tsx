@@ -11,7 +11,7 @@ const tabs = [
   {
     id: 2,
     title: "Proposals",
-    path: "/proposal",
+    path: "#",
   },
   {
     id: 3,
