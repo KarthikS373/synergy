@@ -11,7 +11,7 @@ const HomeLayout: React.FC<HomeLayoutProps> = ({ children, className }) => {
   return (
     <>
       <MainTab />
-      <main className="mt-16 px-4 sm:px-24 md:px-56">{children}</main>
+      <main className="mt-16 px-4 sm:px-24 md:px-36 lg:px-56">{children}</main>
     </>
   )
 }

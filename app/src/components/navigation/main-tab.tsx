@@ -1,21 +1,22 @@
 import React from "react"
 import clsx from "clsx"
+import Link from 'next/link';
 
 const tabs = [
   {
     id: 1,
     title: "Home",
-    path: "#",
+    path: "/",
   },
   {
     id: 2,
     title: "Proposals",
-    path: "#",
+    path: "/proposal",
   },
   {
     id: 3,
     title: "Projects",
-    path: "#",
+    path: "/projects",
   },
   {
     id: 4,
@@ -52,7 +53,7 @@ const MainTab: React.FC = () => {
       <div className="mb-6">
         <div className="flex px-6">
           {tabs.map((tab, index) => {
-            return <Tab key={tab.id} active={index === 0} {...tab} />
+            return <Link href={tab.path}><Tab key={tab.id} active={index === 0} {...tab} /></Link>
           })}
         </div>
         <hr />
