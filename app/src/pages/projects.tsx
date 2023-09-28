@@ -21,9 +21,7 @@ const HomePage: React.FC<HomePageProps> = () => {
         <div className="">
           <h1 className="text-white lg:text-3xl">Initiatives making our Ecosystem grow</h1>
           <p className="mt-4 text-white text-md lg:text-lg font-bold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit qui aliquid
-            mollitia. Nostrum odit vitae eligendi perspiciatis tenetur minima repudiandae,
-            laboriosam itaque vero atque autem quasi unde a nulla adipisci exercitationem.
+          On a quarterly basis, our crowdfunding community collectively decides on fund allocation and distribution to support community-driven projects. Explore further to discover their objectives, advancements, and the influence they're generating within our initiative.
           </p>
         </div>
       </div>
