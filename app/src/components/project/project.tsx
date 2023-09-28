@@ -6,13 +6,16 @@ import ProgressBar from "../ui/progressbar"
 
 interface ProjectProps {
   type: "card" | "expanded"
+  title?: string,
+  description?: string
 }
 
 interface ExpProps {
   title?: string
+  description?: string
 }
 
-const ProjectCard: React.FC<ExpProps> = () => {
+const ProjectCard: React.FC<ExpProps> = ({title, description}) => {
   const rd = Math.random()
 
   return (
@@ -25,11 +28,11 @@ const ProjectCard: React.FC<ExpProps> = () => {
           <p>Budget: Rs 10,000</p>
         </div>
         <div className="flex gap-4">
-          <p>Proposed by: Name</p>
+          <p>Proposed by: Sam</p>
         </div>
       </div>
       <div className="font-bold text-xl mt-3 w-4/5">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, a.
+      {title}: {description}
       </div>
       <div className="mt-12 md:mt-2">
         <div className="mt-4 flex items-center justify-between">
@@ -58,8 +61,8 @@ const ProjectExpanded: React.FC<ExpProps> = () => {
   return <></>
 }
 
-const Project: React.FC<ProjectProps> = ({ type }) => {
-  if (type === "card") return <ProjectCard />
+const Project: React.FC<ProjectProps> = ({ type, title, description }) => {
+  if (type === "card") return <ProjectCard title={title} description={description} />
 
   if (type === "expanded") return <ProjectExpanded />
 

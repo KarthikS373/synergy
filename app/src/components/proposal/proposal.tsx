@@ -5,23 +5,26 @@ import Button from "../atoms/button"
 import Card from "../ui/card"
 
 interface ProposalProps {
-  type: "card" | "expanded"
+  type: "card" | "expanded",
+  title?: string,
+  description?: string
 }
 
 interface ExpProps {
   title?: string
+  description?: string
 }
 
-const ProposalCard: React.FC<ExpProps> = () => {
+const ProposalCard: React.FC<ExpProps> = ({title, description}) => {
   return (
     <Card>
       <div className="center justify-between gap-4 px-4">
         <div className="center gap-8">
           <span className="h-10 w-10 rounded-full bg-gray-500/25" />
           <div className="flex flex-col">
-            <h1 className="text-2xl text-black/80">Title of Proposal</h1>
+            <h1 className="text-2xl text-black/80">{title}</h1>
             <p className="opacity-75">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, aspernatur
+              {description}
             </p>
           </div>
         </div>
@@ -39,8 +42,8 @@ const ProposalExpanded: React.FC<ExpProps> = () => {
   return <></>
 }
 
-const Proposal: React.FC<ProposalProps> = ({ type }) => {
-  if (type === "card") return <ProposalCard />
+const Proposal: React.FC<ProposalProps> = ({ type, title, description }) => {
+  if (type === "card") return <ProposalCard title={title} description={description} />
 
   if (type === "expanded") return <ProposalExpanded />
 

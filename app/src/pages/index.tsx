@@ -56,11 +56,11 @@ const HomePage: React.FC<HomePageProps> = () => {
         Proposals are created by the community and work as the consensus mechanism used to outline policies and changes to the Synergy's ecosystem
         </p>
         <div className="mt-6">
-          <Proposal type={"card"} />
-          <Proposal type={"card"} />
-          <Proposal type={"card"} />
-          <Proposal type={"card"} />
-          <Proposal type={"card"} />
+          <Proposal type={"card"} title={"Smart Home Security Device"} description={"Develop a cutting-edge home security system that combines AI and IoT technology."} />
+          <Proposal type={"card"} title={"Affordable 3D Printer"} description={"Create an accessible 3D printer for hobbyists and small businesses."} />
+          <Proposal type={"card"} title={"Renewable Energy Solution"} description={"Propose a project to develop a portable solar-powered generator for outdoor enthusiasts."} />
+          <Proposal type={"card"} title={"Independent Film Production"} description={"Fundraise for an independent film or documentary on a compelling social issue."} />
+          <Proposal type={"card"} title={"Community Garden"} description={"Establish a community garden to promote sustainable living and local food production."} />
         </div>
         <Button className="bg-gradient-to-r from-fuchsia-600 to-pink-600 center mt-4 w-full">View More</Button>
       </div>
@@ -69,15 +69,14 @@ const HomePage: React.FC<HomePageProps> = () => {
       <div className="mx-0 xl:mx-44 mt-12">
         <h1>Open Projects</h1>
         <p className="mt-2 opacity-75">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque suscipit error dicta
-          voluptatem praesentium! Corrupti iure incidunt dolorum!
+        Explore the open project's details and objectives
         </p>
         <div className="mt-6 grid grid-cols-2 gap-4">
-          <Project type={"card"} />
-          <Project type={"card"} />
-          <Project type={"card"} />
-          <Project type={"card"} />
-          <Project type={"card"} />
+          <Project type={"card"} title={"Artistic Revolution"} description={"Funding a series of street art installations to promote urban creativity."} />
+          <Project type={"card"} title={"Ocean Cleanup Expedition"} description={"Supporting an expedition to remove plastic waste from the world's oceans."} />
+          <Project type={"card"} title={"Wildlife Conservation in Action"} description={"Crowdfunding a documentary series on efforts to protect endangered species."} />
+          <Project type={"card"} title={"Food for All"} description={"Supporting a food bank's mission to provide meals to the homeless and hungry."} />
+          <Project type={"card"} title={"STEM Scholarships"} description={"Providing scholarships for students pursuing science, technology, engineering, and mathematics education."} />
         </div>
         <Button className="bg-gradient-to-r from-fuchsia-600 to-pink-600 center mt-4 w-full">View More</Button>
       </div>
